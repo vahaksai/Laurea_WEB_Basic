@@ -1,0 +1,19 @@
+#headeri {
+    padding: 70px;
+    ;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#otsikko {
+    background-color: grey;
+    border: 10 px;
+    padding: 25px 25px 25px 25px;
+}
+
+img {
+    border-radius: 50%;
+  }
+#images {
+    padding: 10px;
+}  
