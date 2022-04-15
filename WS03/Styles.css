@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 20px;
+}
+#green {
+    font-size: 12px;
+    color: green;
+}
+.dotted {
+    outline-style: dotted; height: 100px;width: 100px;
+    border: 2px;
+
+}          
+ul {
+    list-style: square;
+}
+ol {
+list-style: lower-alpha;
+}
