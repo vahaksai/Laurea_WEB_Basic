@@ -1,0 +1,45 @@
+@media only screen and (max-width: 799px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+ 
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}  
+
+#box1 {
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 2px 6px;
+    
+}
+
+#box2 {
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+    text-shadow: 2px 1px rgb(247, 168, 217);
+    background-image: url(images/rickroll-800x450.jpeg);
+    background-size: cover;
+
+}
+
+#box3 {
+    text-align: center;
+    text-shadow: 1px 1px rgb(155, 145, 247);
+}
+
+#footeri {
+text-align: center;
+}
+
+a:hover {
+    color: red;
+    transition-property: color;
+    transition-duration: 2s;
+}
