@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<title>Tableform</title>
+<link rel="stylesheet" href="styletable.css">
+</head>
+<body>
+    <table>
+        <caption style="text-align:center"><strong>Vuodenajat</strong></caption>
+        <tr>
+          <th>vuodenaika</th>
+          <th><em>kevät</em></th>
+          <th><em>kesä</em></th>
+          <th><em>syksy</em></th>
+          <th><em>talvi</em></th>
+        </tr>
+        <tr>
+          <th>kuukaudet</th>
+          <td>3-5</td>
+          <td>6-8</td>
+          <td>9-11</td>
+          <td>12-2</td>
+        </tr>
+        <tr>
+          <th>sää</th>
+          <td>&#127804;</td>
+          <td>&#127774;</td>
+          <td>&#127812;</td>
+          <td>&#9924;</td>
+        </tr>
+      </table>
+<br>
+<form action="/action_page.php">
+    <fieldset>
+      <legend>Yhteystiedot:</legend>
+      <label for="fname">Nimi:</label>
+      <input type="text" id="fname" name="fname" required><br><br>
+      <label for="lname">Sukunimi:</label>
+      <input type="text" id="lname" name="lname" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <p>Teksti:</p>
+      <textarea cols="80" name="comments" rows="4">Kirjoita huolesi tähän</textarea><br> 
+      <br>
+      <label for="kieli">Valitse kieli:</label>
+      <select name="kieli" id="kieli">
+        <option value="suomi">suomi</option>
+        <option value="ruotsi">svenska</option></select>
+      <br>
+      <input type="checkbox" id="tilaus" name="tilaus" value="Uutiskirje">
+      <label for="tilaus"> Tilaan uutiskirjeen </label>
+      <br>
+      <input type="submit" value="Lisää uusi käyttäjä">
+    </fieldset>
+  </form>
+</body>
+</html>
